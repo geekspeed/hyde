@@ -1,12 +1,13 @@
 <div class="sidebar">
-  <div class="container sidebar-sticky">
+  <div class="container">
     <div class="sidebar-about">
       <h1>
         <a href="{{ site.baseurl }}">
-          {{ site.title }}
+         <p> <span class="firstLetter">D</span><span class="topicHeader"><font size="4">eprecated</font></span></p>
+	 <p> <span class="firstLetter">P</span><span class="topicHeader"><font size="4">anda</font></span></p>
         </a>
       </h1>
-      <p class="lead">{{ site.description }}</p>
+     <p class="lead"><span class="topicHeader">{{ site.description }}</span></p>
     </div>
 
     <nav class="sidebar-nav">
@@ -30,7 +31,8 @@
       <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
       <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
     </nav>
-
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	{% image pissed_panda_375_360.png %}
   </div>
 </div>

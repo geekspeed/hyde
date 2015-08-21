@@ -7,15 +7,15 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
+title:            Deprecated Panda dot com
+tagline:          'A Blog about stuff'
+description:      'Just a dude, who does stuff...'
+url:              https;//deprecatedpanda.com
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'John Stauffacher'
+  url:            https://twitter.com/g33kspeed
 
 paginate:         5
 
@@ -24,3 +24,20 @@ version:          2.1.0
 
 github:
   repo:           https://github.com/poole/hyde
+
+assets:
+
+  dirname: assets
+  baseurl: /assets/
+  sources:
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _assets/images
+    - _assets/fonts
+  js_compressor: uglifier
+  css_compressor: sass
+  cachebust: none
+  cache: false
+  gzip: [ text/css, application/javascript ]
+  debug: true
+
